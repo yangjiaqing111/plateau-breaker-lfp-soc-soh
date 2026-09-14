@@ -1,0 +1,49 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时文件 / 实验产物 ----------
+tmp_bms/
+*.log
+*.mp4
+*.avi
+frames/
+check_log.txt
+dst_check.txt
+extract_log.txt
+frames_log.txt
+paper_text.txt
+video_info.txt
+
+# ---------- 大型数据包 ----------
+*.zip
+*.tar.gz
+*.rar
+
+Oxford_Battery_Degradation_Dataset_1 (1).mat
+# 公开数据集（体积大，官网下载）
+A123_*/
+Oxford_Battery_Degradation_Dataset*
+*.mat
